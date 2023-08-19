@@ -3,24 +3,24 @@
 
 ## Investigations 
 
-- [] Is it possible to investigate the rng?
+- [ ] Is it possible to investigate the rng?
 
 ## Cheats to Implement
 
-- [] Always start
-- [] Supress Hover events
-- [] Perfect info on OP Hand
-- [] Look at the top card of your library
-- [] stack your deck
-- [] open all boosters in inventory
-- [] Starting life Total
+- [ ] Always start
+- [ ] Supress Hover events
+- [ ] Perfect info on OP Hand
+- [ ] Look at the top card of your library
+- [ ] stack your deck
+- [ ] open all boosters in inventory
+- [ ] Starting life Total
 
 ## Next Implementation
 
 - [x] Get data from the game
 - [x] Test setting localplayerlife to 20
-- [] create GUI for hack using mvc 
-- [] Interact with the game function through GUI button like "Next Phase" for example
+- [ ] create GUI for hack using mvc 
+- [ ] Interact with the game function through GUI button like "Next Phase" for example
    
 ## tailing logs for mtga
 Using Powershell
