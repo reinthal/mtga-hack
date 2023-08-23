@@ -7,20 +7,20 @@
 
 ## Cheats to Implement
 
-- [] Always start
-- [] Supress Hover events
-- [] Perfect info on OP Hand
-- [] Look at the top card of your library
-- [] stack your deck
-- [] open all boosters in inventory
-- [] Starting life Total
+- [ ] Always start
+- [ ] Supress Hover events
+- [ ] Perfect info on OP Hand
+- [ ] Look at the top card of your library
+- [ ] stack your deck
+- [ ] open all boosters in inventory
+- [ ] Starting life Total
 
 ## Next Implementation
 
 - [x] Get data from the game
 - [x] Test setting localplayerlife to 20
-- [] create GUI for hack using mvc 
-- [] Interact with the game function through GUI button like "Next Phase" for example
+- [ ] create GUI for hack using mvc 
+- [ ] Interact with the game function through GUI button like "Next Phase" for example
    
 ## tailing logs for mtga
 Using Powershell
@@ -333,7 +333,6 @@ Interesting day. No cheating yet but I do have access to the game data. While pe
 
 		// Token: 0x04003BD2 RID: 15314
 		public List<uint> CardIds = new List<uint>();
-
 		// Token: 0x04003BD3 RID: 15315
 		public List<MtgCardInstance> VisibleCards = new List<MtgCardInstance>();
 ```	 
@@ -348,3 +347,75 @@ hehehe xD * Evil Laugh *
 
 
 
+## 2023-08-21: TIL: Unity version 2020.3.13f1 was used to create the latest mtga
+
+I learned this by looking at the executable and running `Application.unityVersion` in my gui. Pretty neat :) 
+
+https://unity.com/releases/editor/whats-new/2020.3.13
+
+
+I need this info to compile `mono.dll` using the correct unity version so I can attach the dnspy debugger to the process. My plan is to do this 
+
+## 2023-08-23: Going for the lulz
+
+Today I read some code, After trying to figure out the networking I found that MTGA uses its own networking modules instead of
+unity supplied networking. Not sure why, but it sounds like it could be exploited. Lets try it out later on!
+
+However, that sounded kind of tedious so I just searched for "rewards" and "gems", and I found some code that does just that. Lets look at it.
+
+```csharp
+namespace Core.Rewards
+namespace Core.Rewards
+{
+	// Token: 0x0200151E RID: 5406
+	[Serializable]
+	public abstract class AmountReward<P> : RewardBase<P> where P : RewardDisplay
+	{
+		// Token: 0x060082CC RID: 33484
+		public void AddIfPositive(int amount)
+		{
+			if (amount > 0)
+			{
+				this.ToAddCount += amount + 5000; // lololol
+			}
+		}
+
+		// Token: 0x060082CD RID: 33485 RVA: 0x0025B559 File Offset: 0x00259759
+		public override void ClearAdded()
+		{
+			this.ToAddCount = 0;
+		}
+
+		// Token: 0x060082CE RID: 33486 RVA: 0x0025B562 File Offset: 0x00259762
+		protected IEnumerator DisplayAmountRewardPile(ContentControllerRewards ccr, int childIndex, WwiseEvents sfx, int amt, YieldInstruction andThen = null)
+		{
+			if (base.Instances.Count == 0)
+			{
+				RewardDisplay rewardDisplay = base.Instantiate(ccr, childIndex);
+				rewardDisplay.SetCountText(amt);
+				rewardDisplay.GetComponent<Animator>().SetTrigger(ContentControllerRewards.QuantityUpdate);
+				AudioManager.PlayAudio(sfx, rewardDisplay.gameObject);
+			}
+			yield return andThen;
+			yield break;
+		}
+	}
+}
+```
+
+I also found that `RewardDisplay` is a MonoBehaviour object which I can search for in my hack :D Maybe I can hack it by simple adding 5000!
+
+Moreover
+
+
+I am just gonna list all the awesome code I found. hehe
+
+
+- `GoldReward`
+- `GemReward`
+- `MatchConfigurator`
+- `GameObjectExtensions`
+
+last comment before commence hack. GameObjecExtensions extends functionality of the Unity Object. So, I think why I didnt find a lot of code before was because
+I assumed that mtga gameobjects were inheriting from `GameObject` when in fact a lot of functionality from Unity has been extended into objects found in the mtga
+code base.

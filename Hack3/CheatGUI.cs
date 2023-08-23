@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
-
+using Unity;
 namespace Hack3
 {
 
@@ -24,7 +24,7 @@ namespace Hack3
 
         void OnUpdate() // for melon mod or plugin use "public override void OnUpdate()"
         {
-            if (Input.GetKeyDown(KeyCode.F1)) // Toggle the menu when the Tab key is pressed and for new key sys "if (Keyboard.current.insertKey.wasPressedThisFrame)"
+            if (Input.GetKeyDown(KeyCode.Insert)) // Toggle the menu when the Tab key is pressed and for new key sys "if (Keyboard.current.insertKey.wasPressedThisFrame)"
             {
                 showMenu = !showMenu;
             }
@@ -37,7 +37,7 @@ namespace Hack3
                 // Set the background color
                 GUI.backgroundColor = backgroundColor;
 
-                windowRect = GUI.Window(0, windowRect, MenuWindow, "Cheat Menu <WoodgamerHD>"); // Create the window with title "Menu"
+                windowRect = GUI.Window(0, windowRect, MenuWindow, "Unity version: " + Application.unityVersion); // Create the window with title "Menu"
             }
         }
 

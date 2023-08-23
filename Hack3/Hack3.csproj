@@ -44,607 +44,606 @@
   <ItemGroup>
     <Reference Include="Ak.Wwise.Api.WAAPI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Ak.Wwise.Api.WAAPI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Ak.Wwise.Api.WAAPI.dll</HintPath>
     </Reference>
     <Reference Include="AK.Wwise.Unity.API, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\AK.Wwise.Unity.API.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\AK.Wwise.Unity.API.dll</HintPath>
     </Reference>
     <Reference Include="AK.Wwise.Unity.API.WwiseTypes, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\AK.Wwise.Unity.API.WwiseTypes.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\AK.Wwise.Unity.API.WwiseTypes.dll</HintPath>
     </Reference>
     <Reference Include="AK.Wwise.Unity.MonoBehaviour, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\AK.Wwise.Unity.MonoBehaviour.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\AK.Wwise.Unity.MonoBehaviour.dll</HintPath>
     </Reference>
     <Reference Include="AK.Wwise.Unity.Timeline, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\AK.Wwise.Unity.Timeline.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\AK.Wwise.Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Backtrace.Unity, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Backtrace.Unity.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Backtrace.Unity.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\BouncyCastle.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\BouncyCastle.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\BouncyCastle.Crypto.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="com.wizards.platform.sdk.unity, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\com.wizards.platform.sdk.unity.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\com.wizards.platform.sdk.unity.dll</HintPath>
     </Reference>
     <Reference Include="Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Contracts.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Contracts.dll</HintPath>
     </Reference>
     <Reference Include="DOTween, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\DOTween.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTween43, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\DOTween43.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\DOTween46.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\DOTween46.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\DOTween50.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Steamworks.Win64, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Facepunch.Steamworks.Win64.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Facepunch.Steamworks.Win64.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Firebase.Analytics.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Firebase.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.App, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Firebase.App.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Messaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Firebase.Messaging.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Firebase.Messaging.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Firebase.Platform.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Firebase.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.TaskExtension, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Firebase.TaskExtension.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Firebase.TaskExtension.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Google.MiniJson.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Google.MiniJson.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf, Version=3.9.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Google.Protobuf.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Harness, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Harness.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Harness.dll</HintPath>
     </Reference>
     <Reference Include="JsonFx.Json, Version=1.4.1003.3008, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\JsonFx.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\JsonFx.Json.dll</HintPath>
     </Reference>
     <Reference Include="MarkerMetro.Unity.WinLegacy, Version=1.8.0.18, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\MarkerMetro.Unity.WinLegacy.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\MarkerMetro.Unity.WinLegacy.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Microsoft.Bcl.HashCode.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Microsoft.Bcl.HashCode.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Data.Sqlite, Version=6.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Microsoft.Data.Sqlite.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Microsoft.Data.Sqlite.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Win32.Registry, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Microsoft.Win32.Registry.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Microsoft.Win32.Registry.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Options, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Mono.Options.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Mono.Options.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Mono.Security.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Mono.Security.dll</HintPath>
     </Reference>
     <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\netstandard.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\netstandard.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Purchasing.Common, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Purchasing.Common.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="RSG.Promise, Version=3.0.1.0, Culture=neutral, PublicKeyToken=7019fe0722eef3a4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\RSG.Promise.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\RSG.Promise.dll</HintPath>
     </Reference>
     <Reference Include="SolidUtilities, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\SolidUtilities.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\SolidUtilities.dll</HintPath>
     </Reference>
     <Reference Include="SQLitePCLRaw.batteries_v2, Version=2.0.7.1395, Culture=neutral, PublicKeyToken=8226ea5df37bcae9, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\SQLitePCLRaw.batteries_v2.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\SQLitePCLRaw.batteries_v2.dll</HintPath>
     </Reference>
     <Reference Include="SQLitePCLRaw.core, Version=2.0.7.1395, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\SQLitePCLRaw.core.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\SQLitePCLRaw.core.dll</HintPath>
     </Reference>
     <Reference Include="SQLitePCLRaw.provider.e_sqlite3, Version=2.0.6.1341, Culture=neutral, PublicKeyToken=9c301db686d0bd12, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
     </Reference>
     <Reference Include="SQLitePCLRaw.provider.sqlite3, Version=2.0.7.1395, Culture=neutral, PublicKeyToken=62684c7b4f184e3f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\SQLitePCLRaw.provider.sqlite3.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\SQLitePCLRaw.provider.sqlite3.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Compat.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Compat.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.InputSystem.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.MemoryProfiler, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.MemoryProfiler.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.MemoryProfiler.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Recorder.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Base, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Recorder.Base.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.ScriptableBuildPipeline.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Analytics, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Analytics.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Analytics.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Configuration, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Configuration.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Device, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Device.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Device.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Environments.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments.Internal, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Environments.Internal.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Environments.Internal.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Internal, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Internal.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Internal.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Networking, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Networking.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Networking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Registration, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Registration.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Scheduler, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Scheduler.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Scheduler.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Telemetry, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Telemetry.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Telemetry.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Threading, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Services.Core.Threading.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Services.Core.Threading.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Tasks.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Unity.Timeline.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterRendererModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.GIModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.GIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.AppleCore, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.AppleCore.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.AppleCore.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.AppleMacosStub, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.AppleMacosStub.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.AppleMacosStub.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.AppleStub, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.AppleStub.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.AppleStub.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Codeless, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.Codeless.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityCore, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityStub, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Stores, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.Stores.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.Stores.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.WinRTCore, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.WinRTCore.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.WinRTCore.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.WinRTStub, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.Purchasing.WinRTStub.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.Purchasing.WinRTStub.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsNativeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UIElementsNativeModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngineInternals, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\UnityEngineInternals.dll</HintPath>
+    <Reference Include="UnityEngineInternals">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\UnityEngineInternals.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Arena.Client.Logging, Version=1.1.16.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Arena.Client.Logging.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Arena.Client.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Arena.Models, Version=1.2.63.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Arena.Models.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Arena.Models.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Arena.Promises, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Arena.Promises.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Arena.Promises.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Arena.TcpConnection, Version=1.2.6.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Arena.TcpConnection.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Arena.TcpConnection.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.MDN.GreProtobuf.Unity, Version=1.1.0.23997, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.MDN.GreProtobuf.Unity.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.MDN.GreProtobuf.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Mtga.BI.Interfaces, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Mtga.BI.Interfaces.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Mtga.BI.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Mtga.Interfaces, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Mtga.Interfaces.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Mtga.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Mtga.Metadata, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Mtga.Metadata.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Mtga.Metadata.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Mtga.Platforms.Windows, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Mtga.Platforms.Windows.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Mtga.Platforms.Windows.dll</HintPath>
     </Reference>
     <Reference Include="ZFBrowser, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\ZFBrowser.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\ZFBrowser.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
