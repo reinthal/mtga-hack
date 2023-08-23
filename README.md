@@ -1,5 +1,10 @@
 # Hax
 
+# credentials lololol
+
+mtga
+
+batbingbongbat@proton.me:]2_]]Uc:C*M!Tu,
 
 ## Investigations 
 
