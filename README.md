@@ -3,7 +3,7 @@
 
 ## Investigations 
 
-- [] Is it possible to investigate the rng?
+- [ ] Is it possible to investigate the rng?
 
 ## Cheats to Implement
 
