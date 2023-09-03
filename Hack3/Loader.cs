@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using Unity;
 namespace Hack3
 {
     public class Loader
@@ -10,7 +9,6 @@ namespace Hack3
         {
             
             Loader.Load = new GameObject();
-            Loader.Load.AddComponent<MtgaHack>();
             Loader.Load.AddComponent<CheatGUI>();
             UnityEngine.Object.DontDestroyOnLoad(Loader.Load);
         }

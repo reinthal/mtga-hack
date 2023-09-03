@@ -15,6 +15,7 @@ namespace Hack3
         private Color backgroundColor = Color.grey; // Background color
         private bool showMenu = true; // Whether to show the menu or not
         bool temp = false;
+        bool enableDebugging = false;
         void Start() // or "public override void OnInitializeMelon()" for melon mod or plugin
         {
             // Center the window on the screen
@@ -73,26 +74,10 @@ namespace Hack3
 
                     GUILayout.BeginHorizontal();
                     GUILayout.BeginVertical();
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
+
+                    enableDebugging = GUILayout.Toggle(enableDebugging, "EnableDebugging");
 
                     GUILayout.EndVertical();
-
-                    GUILayout.Space(10);
-
-                    GUILayout.BeginVertical();
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    GUILayout.EndVertical();
-
                     GUILayout.EndHorizontal();
 
                     GUILayout.EndVertical();
@@ -135,9 +120,18 @@ namespace Hack3
 
 
                     }
-
-
-
+                    if (GUILayout.Button("EnableDebugging"))
+                    {
+                        bool oldEnableDebugging = enableDebugging;
+                        enableDebugging = !enableDebugging;
+                        bool stateChanged = oldEnableDebugging != enableDebugging;
+                        if (enableDebugging && stateChanged)
+                        {
+                            MtgaPatcher.DoPatching();
+                        }
+                        if (!enableDebugging && stateChanged)
+                            MtgaPatcher.UndoPatching();
+                    }
                     break;
             }
 
