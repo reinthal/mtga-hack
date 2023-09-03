@@ -424,3 +424,24 @@ I am just gonna list all the awesome code I found. hehe
 last comment before commence hack. GameObjecExtensions extends functionality of the Unity Object. So, I think why I didnt find a lot of code before was because
 I assumed that mtga gameobjects were inheriting from `GameObject` when in fact a lot of functionality from Unity has been extended into objects found in the mtga
 code base.
+
+## 2023-03-09 Harmony And patching Debug Settings
+
+
+### debug key
+Learned that there is a debugkey to be pressed in `Wotc.Mtga.DuelScene.DebugUI`
+
+```csharp
+		private bool IsDebugKeyPressed()
+		{
+			return Input.GetKeyDown(KeyCode.F2);
+		}
+```
+
+### Setting DebugBuild in `UnityEngine.Debug`
+
+didnt work
+
+### Setting debug account in wotc
+
+This worked! I am able to enable the debug menu using `left alt` and `f2` buttons! I am the greatest hacker : D lots of links to wizard of the coast confluence. lololol.
