@@ -3,4 +3,8 @@
   <PropertyGroup>
     <ReferencePath>C:\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\</ReferencePath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Wizards of the Coast\MTGA\MTGA.exe</StartProgram>
+  </PropertyGroup>
 </Project>

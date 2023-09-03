@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Hack3</RootNamespace>
     <AssemblyName>Hack3</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile>
@@ -36,12 +36,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CheatGUI.cs" />
+    <Compile Include="DebugHack.cs" />
     <Compile Include="UIHelper.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="MtgaHack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.2.2\lib\net48\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Ak.Wwise.Api.WAAPI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Ak.Wwise.Api.WAAPI.dll</HintPath>
@@ -645,6 +649,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\ZFBrowser.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
