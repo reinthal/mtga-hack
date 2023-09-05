@@ -91,22 +91,12 @@ namespace Hack3
                     GUILayout.BeginHorizontal();
                     GUILayout.BeginVertical();
                     temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
 
                     GUILayout.EndVertical();
 
                     GUILayout.Space(10);
 
                     GUILayout.BeginVertical();
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
-                    temp = GUILayout.Toggle(temp, "temp");
                     temp = GUILayout.Toggle(temp, "temp");
                     GUILayout.EndVertical();
 

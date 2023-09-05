@@ -24,7 +24,11 @@ batbingbongbat@proton.me:]2_]]Uc:C*M!Tu,
 
 - [x] Get data from the game
 - [x] Test setting localplayerlife to 20
-- [ ] create GUI for hack using mvc 
+- [x] create GUI for hack
+- [ ] Investigate how to interact with frontdooraws. Look for interesting functions that could be hooked and logged.
+- [ ] Look for simple way to interact with game
+- [ ] Compile mono to debug the game
+- [ ] run the debugger stepping through interesting functions
 - [ ] Interact with the game function through GUI button like "Next Phase" for example
    
 ## tailing logs for mtga
@@ -445,3 +449,40 @@ didnt work
 ### Setting debug account in wotc
 
 This worked! I am able to enable the debug menu using `left alt` and `f2` buttons! I am the greatest hacker : D lots of links to wizard of the coast confluence. lololol.
+
+
+Debug account worked. Now I need to read the code and see what the debug functions actually do.
+
+
+
+# 2023-09-05: HarmonyMonoInjector
+
+The old MonoInjector stopped working. Likely related to windows defender. Started using the other HarmonyMonoInjector instead. which is working fine
+
+```
+C:\Users\frogman\source\tools\HarmonyMonoInjector>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3AFB-9C23
+
+ Directory of C:\Users\frogman\source\tools\HarmonyMonoInjector
+
+09/03/2023  10:50 AM    <DIR>          .
+09/03/2023  10:50 AM    <DIR>          ..
+09/04/2023  10:31 PM               198 config.json
+07/24/2023  05:50 AM    <DIR>          Harmony
+09/03/2023  01:01 PM               416 Injector.deps.json
+07/14/2023  02:49 PM            28,160 Injector.dll
+07/14/2023  02:49 PM           147,968 Injector.exe
+06/30/2023  06:53 AM               253 Injector.runtimeconfig.json
+06/30/2023  06:53 AM    <DIR>          ref
+               5 File(s)        176,995 bytes
+               4 Dir(s)  54,648,979,456 bytes free
+
+C:\Users\frogman\source\tools\HarmonyMonoInjector>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\frogman\source\tools\HarmonyMonoInjector>
+```
+
+just execute the `Injector.exe` file. `config.json` configured run paramters. Works better than old injector as parameter configured once.

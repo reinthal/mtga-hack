@@ -32,4 +32,14 @@ namespace Hack3
             return false;
         }
     }
+    [HarmonyPatch(typeof(AccountInformation), "HasRole_MythicOrange")]
+    class EnableWotcRep
+    {
+
+        static bool Prefix(ref bool __result)
+        {
+            __result = true;
+            return false;
+        }
+    }
 }
