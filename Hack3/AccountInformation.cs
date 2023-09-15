@@ -1,24 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using HarmonyLib;
 using UnityEngine;
-
+using Wizards.Mtga.FrontDoorModels;
+using Wotc.Mtga.Network.ServiceWrappers;
 
 namespace Hack3
 {
-    class MtgaPatcher
+    class AccountInformationPatcher
     {
 
         public static void DoPatching()
         {
-            Harmony harmony = new Harmony("mtga.wizards.com");
-            harmony.PatchAll();
+            Harmony harmony = new Harmony("accountinfo.mtga.wizards.com");
+            var assembly = Assembly.GetExecutingAssembly();
+            harmony.PatchAll(assembly);
         }
         public static void UndoPatching()
         {
-            Harmony harmony = new Harmony("mtga.wizards.com");
-            harmony.UnpatchAll();
+            Harmony harmony = new Harmony("accountinfo.mtga.wizards.com");
+            harmony.UnpatchAll("accountinfo.mtga.wizards.com");
         }
     }
 
@@ -42,4 +45,6 @@ namespace Hack3
             return false;
         }
     }
+
+
 }

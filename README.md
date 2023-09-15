@@ -486,3 +486,44 @@ C:\Users\frogman\source\tools\HarmonyMonoInjector>
 ```
 
 just execute the `Injector.exe` file. `config.json` configured run paramters. Works better than old injector as parameter configured once.
+
+# 2023-09-08: Debugging and wotc rep comments
+
+so I was able to open up some debuggin menus.
+
+The cool thing about one of the menus was to be able to see the packages sent between client and server in real time. Many of the packets are BusinessIntelligence, latancy and client performance stats, which are not important for hacking the game. However, some were sending commands to the server, which are interesting.
+
+It would be nice to have a list of commands available, Maybe find the API that is generating these commands. I think it is time to compile mono to be able to debug which functions are generating the AWSfrontdoor commands during gameplay...
+
+# 2023-09-09: Resetting new quest
+
+# 2023-09-09: Studying some payloads from gameplay
+
+I found something better, `ClientToGREMessage` class seems to contain a lot of commands that the client sends to the server. Let's try to send some messages using the GUI. For example, `ForceDrawReq`, which forces a draw? This is not something that a user can do normally, haha xD Let's try it :).
+
+
+
+# 2023-09-09: Compiling Mono on Windows 10
+
+I posted a thread on the UnknownCheats forum about this. I also installed vs2015 to try and compile ethe dnspy-Unity-mono. We will see how this playes out.
+
+# 2023-09-09: How the code works
+
+Ok! So I finally get the basics of the code and how it works. The code is working through a pub-sub scheme, where events are published by one module and subscribed to by another. This acheives high decoupling of modules. For example, read the following code
+
+```csharp
+public class MainThreadDispatcher : MonoBehaviour
+{
+		public static void Dispatch(Action action)
+		{
+			MainThreadDispatcher.Instance.Add(action);
+		}
+
+		// Token: 0x04008C95 RID: 35989
+		private static MainThreadDispatcher _instance;
+
+		// Token: 0x04008C96 RID: 35990
+		private ConcurrentQueue<Action> _actions = new ConcurrentQueue<Action>();
+}
+
+```

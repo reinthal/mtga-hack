@@ -35,8 +35,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AWSMatchResultUtils.cs" />
     <Compile Include="CheatGUI.cs" />
-    <Compile Include="DebugHack.cs" />
+    <Compile Include="AccountInformation.cs" />
+    <Compile Include="FrontDoorConnectionAWS.cs" />
     <Compile Include="UIHelper.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="MtgaHack.cs" />
@@ -612,6 +614,10 @@
     <Reference Include="Wizards.Arena.Client.Logging, Version=1.1.16.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA-tWEAK\MTGA_Data\Managed\Wizards.Arena.Client.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Wizards.Arena.Enums, Version=1.1.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Managed\Wizards.Arena.Enums.dll</HintPath>
     </Reference>
     <Reference Include="Wizards.Arena.Models, Version=1.2.63.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

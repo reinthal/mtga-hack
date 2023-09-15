@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Unity;
+using TMPro;
+
 namespace Hack3
 {
 
@@ -14,8 +16,9 @@ namespace Hack3
         private int tab = 0; // Current tab index
         private Color backgroundColor = Color.grey; // Background color
         private bool showMenu = true; // Whether to show the menu or not
-        bool temp = false;
-        bool enableDebugging = false;
+        bool enableAccountInformationHack = false;
+        bool enableAWSMatchResultHack = false;
+        bool enableJoinEventHack = false;
         void Start() // or "public override void OnInitializeMelon()" for melon mod or plugin
         {
             // Center the window on the screen
@@ -75,52 +78,48 @@ namespace Hack3
                     GUILayout.BeginHorizontal();
                     GUILayout.BeginVertical();
 
-                    enableDebugging = GUILayout.Toggle(enableDebugging, "EnableDebugging");
-
+                    enableAccountInformationHack = GUILayout.Toggle(enableAccountInformationHack, "AccountInformationHack on?");
+                    enableAWSMatchResultHack = GUILayout.Toggle(enableAWSMatchResultHack, "AWS MatchResultHack on?");
+                    enableJoinEventHack = GUILayout.Toggle(enableJoinEventHack, "JoinEventHack");
+                    
                     GUILayout.EndVertical();
                     GUILayout.EndHorizontal();
-
                     GUILayout.EndVertical();
 
                     break;
                 case 1:
-                    // Content for tab 2
-                    GUILayout.Label("Tab 2 Content");
-                    GUILayout.BeginVertical(GUI.skin.box);
-
-                    GUILayout.BeginHorizontal();
-                    GUILayout.BeginVertical();
-                    temp = GUILayout.Toggle(temp, "temp");
-
-                    GUILayout.EndVertical();
-
-                    GUILayout.Space(10);
-
-                    GUILayout.BeginVertical();
-                    temp = GUILayout.Toggle(temp, "temp");
-                    GUILayout.EndVertical();
-
-                    GUILayout.EndHorizontal();
-
-                    GUILayout.EndVertical();
-
-                    if (GUILayout.Button("temp Button"))
+                    // Content for tab 
+                    if (GUILayout.Button(" 🐒 JoinEvent Hack 🐒"))
                     {
-                        temp = !temp;
+                        bool oldJoinEventHackB = enableJoinEventHack;
+                        enableJoinEventHack = !enableJoinEventHack;
+                        bool stateChanged = oldJoinEventHackB != enableJoinEventHack;
 
+                        if (enableJoinEventHack && stateChanged)
+                            FrontDoorConnectionHacker.DoPatching();
+                        if (!enableJoinEventHack && stateChanged)
+                            FrontDoorConnectionHacker.UndoPatching();
+                    }
+                    if (GUILayout.Button("🗲 AWS MatchResultHack 🗲"))
+                    {
+                        bool oldMatchResultB = enableAWSMatchResultHack;
+                        enableAWSMatchResultHack = !enableAWSMatchResultHack;
+                        bool stateChanged = oldMatchResultB != enableAWSMatchResultHack;
+                        if (enableAWSMatchResultHack && stateChanged)
+                            AWSMatchResultUtilsPatcher.DoPatching();
+                        if (!enableAWSMatchResultHack && stateChanged)
+                            AWSMatchResultUtilsPatcher.UndoPatching();
 
                     }
-                    if (GUILayout.Button("EnableDebugging"))
+                    if (GUILayout.Button("☠ Hack AccountInformation ☠"))
                     {
-                        bool oldEnableDebugging = enableDebugging;
-                        enableDebugging = !enableDebugging;
-                        bool stateChanged = oldEnableDebugging != enableDebugging;
-                        if (enableDebugging && stateChanged)
-                        {
-                            MtgaPatcher.DoPatching();
-                        }
-                        if (!enableDebugging && stateChanged)
-                            MtgaPatcher.UndoPatching();
+                        bool oldAccInfoHackB = enableAccountInformationHack;
+                        enableAccountInformationHack = !enableAccountInformationHack;
+                        bool stateChanged = oldAccInfoHackB != enableAccountInformationHack;
+                        if (enableAccountInformationHack && stateChanged)
+                            AccountInformationPatcher.DoPatching();
+                        if (!enableAccountInformationHack && stateChanged)
+                            AccountInformationPatcher.UndoPatching();
                     }
                     break;
             }
