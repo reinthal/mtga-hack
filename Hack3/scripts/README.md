@@ -2,8 +2,8 @@
 
 - [x] set up the environment, kali, insomnia, burp, python, vscode
 - [x] perform auth request towards the api, foothold!
-- [ ] fuzz the api for documentation
-- [ ] study the race condition lab from PortSwigger
+- [x] fuzz the api for documentation
+- [x] study the race condition lab from PortSwigger
 - [ ] find suitable endpoint to exploit
 - [ ] Write exploit
 - [ ] Test Exploit
@@ -85,3 +85,24 @@ grant_type=refresh_token&refresh_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjM0NmM4YTY1N
 GET https://api.platform.wizards.com/profile:
 Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImQwNGMxYzYxNTkwNDBmZGRhN2FlYjI0ODViOWU0MTBlZDM0ZDJkMDgiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJOOFFGRzhORUJKNVQzNUZCIiwiZXhwIjoxNjk2NzYwNzgxLCJpYXQiOjE2OTY3NTk4MjEsImlzcyI6IklOTVZERDJISDVES0pISFNGR0NLR0dPU0NZIiwic3ViIjoiTEI0WFNLNDVGWkhPWkVMNDZPM1FWV0EzS0EiLCJ3b3RjLW5hbWUiOiJQZXBwYVBFRUVFRyM5MTI1OSIsIndvdGMtZG9tbiI6IndpemFyZHMiLCJ3b3RjLWdhbWUiOiJhcmVuYSIsIndvdGMtZmxncyI6MSwid290Yy1yb2xzIjpbIk1ETkFMUEhBIl0sIndvdGMtcHJtcyI6W10sIndvdGMtc2NwcyI6WyJmaXJzdC1wYXJ0eSJdLCJ3b3RjLXBkZ3IiOiJDM1ZPQU42NldOQ0ZGQUNDTTVSRlczRFdCTSIsIndvdGMtc2d0cyI6W10sIndvdGMtc29jbCI6e30sIndvdGMtY25zdCI6MH0.Ep7bDMq8cNku-9yycsqZ77dBV1NJyfYPid7X8xk_KPpyaDJrVprjVioJDRswV3hzGqIvn1f1TzfE0LEHYsj9yGDC0kHV0g1FoF9wWjeRq7GG4m7RMEjF3Qv82f4z04jSD4Qk9KTfAm6tZS5R0ZZn9pelnD22FiWjR551bpKhsMqhJkz9VOPZIGDVjhrMiTNCSJ9PdyHc2O-Imm3orQUuqjnVwYdqGWui3NQ8NdofFtK6601TRniRsZN_EjftbQTiaTT1782s7ngkQ1ZRoNAtVZU0zKLS_lchi70XP09Ojfrms9AtJ-vb2UUTKMO88AovF73NmmOBGNW907sHW-4mVQ
 ```
+# how to pwn the site
+
+This is from the lab https://portswigger.net/web-security/race-conditions/lab-race-conditions-limit-overrun
+
+    - Remove the discount code from your cart.
+
+    - In Repeater, send the group of requests again, but this time in parallel, effectively applying the discount code multiple times at once. For details on how to do this, see Sending requests in parallel.
+
+    - Study the responses and observe that multiple requests received a response indicating that the code was successfully applied. If not, remove the code from your cart and repeat the attack.
+
+    - In the browser, refresh your cart and confirm that the 20% reduction has been applied more than once, resulting in a significantly cheaper order.
+
+# Prove the concept
+
+    - Remove the applied codes and the arbitrary item from your cart and add the leather jacket to your cart instead.
+
+    - Resend the group of POST /cart/coupon requests in parallel.
+
+    Refresh the cart and check the order total:
+        If the order total is still higher than your remaining store credit, remove the discount codes and repeat the attack.
+        If the order total is less than your remaining store credit, purchase the jacket to solve the lab.
