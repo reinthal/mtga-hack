@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Unity;
 using TMPro;
+using Wizards.Mtga;
 
 namespace Hack3
 {
-
+    
     public class CheatGUI : MonoBehaviour
     {
         private Rect windowRect = new Rect(0, 0, 400, 400); // Window position and size
@@ -19,6 +20,7 @@ namespace Hack3
         bool enableAccountInformationHack = false;
         bool enableAWSMatchResultHack = false;
         bool enableJoinEventHack = false;
+        private EnvironmentDescription description = Pantry.CurrentEnvironment;
         void Start() // or "public override void OnInitializeMelon()" for melon mod or plugin
         {
             // Center the window on the screen
@@ -40,8 +42,8 @@ namespace Hack3
             {
                 // Set the background color
                 GUI.backgroundColor = backgroundColor;
-
-                windowRect = GUI.Window(0, windowRect, MenuWindow, "Unity version: " + Application.unityVersion); // Create the window with title "Menu"
+                string appData = "Alex's MTGA Hack, Unity Version: " + Application.unityVersion;
+                windowRect = GUI.Window(0, windowRect, MenuWindow, appData); // Create the window with title "Menu"
             }
         }
 
@@ -72,11 +74,21 @@ namespace Hack3
             {
                 case 0:
                     // Content for tab 1
-                    GUILayout.Label("Tab 1 Content");
+                    GUILayout.Label(
+                        "How to use this tool?\n" +
+                        "HOME: Hide the too.\n" +
+                        "END: Output API connection details to logger");
+
                     GUILayout.BeginVertical(GUI.skin.box);
 
                     GUILayout.BeginHorizontal();
                     GUILayout.BeginVertical();
+
+                    GUILayout.Label("accountSystemId: ");
+                    GUILayout.TextArea(this.description.accountSystemId);
+
+                    GUILayout.Label("accountSystemSecret: ");
+                    GUILayout.TextArea(this.description.accountSystemSecret);
 
                     enableAccountInformationHack = GUILayout.Toggle(enableAccountInformationHack, "AccountInformationHack on?");
                     enableAWSMatchResultHack = GUILayout.Toggle(enableAWSMatchResultHack, "AWS MatchResultHack on?");
