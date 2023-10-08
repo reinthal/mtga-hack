@@ -5,7 +5,6 @@
 mtga
 
 batbingbongbat@proton.me:]2_]]Uc:C*M!Tu,
-
 ## Investigations 
 
 - [ ] Is it possible to investigate the rng?

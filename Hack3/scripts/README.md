@@ -1,9 +1,18 @@
 # hacking the api
 
+- [x] set up the environment, kali, insomnia, burp, python, vscode
+- [x] perform auth request towards the api, foothold!
+- [ ] fuzz the api for documentation
+- [ ] study the race condition lab from PortSwigger
+- [ ] find suitable endpoint to exploit
+- [ ] Write exploit
+- [ ] Test Exploit
+
+
 
 # Connection information
 accountSystemId: N8QFG8NEBJ5T35FB
-accountSystemSecret: VMK1RE8YK6YR4EABJU91
+accountSystemSecret: 	
 
 The above connection information seems to be the same across restarts of the client.
 

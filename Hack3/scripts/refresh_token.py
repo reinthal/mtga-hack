@@ -1,0 +1,17 @@
+import http.client
+
+conn = http.client.HTTPSConnection("api.platform.wizards.com")
+
+payload = "grant_type=refresh_token&refresh_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjM0NmM4YTY1NTBlZGI5MDRjM2IyNWI3ODlmOTllNjU3ODA4MGJiOTUiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJOOFFGRzhORUJKNVQzNUZCIiwiZXhwIjoxNjk3OTY5Mzc0LCJpYXQiOjE2OTY3NTk3NzQsImlzcyI6IklOTVZERDJISDVES0pISFNGR0NLR0dPU0NZIiwic3ViIjoiTEI0WFNLNDVGWkhPWkVMNDZPM1FWV0EzS0EiLCJ3b3RjLWRvbW4iOiJ3aXphcmRzIiwid290Yy1zY3BzIjpbImZpcnN0LXBhcnR5Il0sIndvdGMtZmxncyI6MSwid290Yy1wZGdyIjoiQzNWT0FONjZXTkNGRkFDQ001UkZXM0RXQk0iLCJ3b3RjLXNvY2wiOnt9LCJ3b3RjLWNuc3QiOjB9.WhF404LHWSnjDYgoyTcsAOfdbwhzkpW7-5mqFKIL7-pt9rCLNE6pO208ZanG54yz0zobrOwgHOMOOYryqD1MBuShIcyDsB4OW6QJHXosxrCY_0-E0uY8i_-KChdRfS3F086GhM19H1yMDYqlgdtTnbQhyrPSObq8Y5NJJMfS7Ej-PSbVKkZFdyCmNto9CXOCrLxOYwfZw_TjW_90oWGEHDHv4snpsXPrjzAiTzAAR7uHYBHIex0yq_A_SOHObMrVaB03j2TTq8pkNSnj7HL_FiK6jkFCMR-NnXe5vmXPIFHvvqLfVpeWcPkPhGcdcAiWXNJFVCI7PhxR6i0VUjpm9w"
+
+headers = {
+    'Content-Type': "application/x-www-form-urlencoded",
+    'Authorization': "Basic TjhRRkc4TkVCSjVUMzVGQjpWTUsxUkU4WUs2WVI0RUFCSlU5MQ=="
+    }
+
+conn.request("POST", "/auth/oauth/token", payload, headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
