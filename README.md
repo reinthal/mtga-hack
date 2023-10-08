@@ -585,7 +585,9 @@ https://api.platform.wizards.com/
 ```
 
 and the following endpoints:
-
+- POST, `accounts/forgotpassword`
+- Get, `accounts/socialidentities`
+- RegisterAsFullAccount, `accounts/register`
 - GetPurchaseToken, `xsollaconnector/client/token`
 - GetProfileToken, `xsollaconnector/client/profile`
 - GetAllEntitlementsByReceiptIdAndSource, `entitlements/source/" + source + "/receipt/" + receiptId`
