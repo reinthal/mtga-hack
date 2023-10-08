@@ -524,6 +524,79 @@ public class MainThreadDispatcher : MonoBehaviour
 
 		// Token: 0x04008C96 RID: 35990
 		private ConcurrentQueue<Action> _actions = new ConcurrentQueue<Action>();
+		...
 }
 
 ```
+
+Along with for example,
+
+```csharp
+public class WrapperController : MonoBehaviour
+{
+	public void Init(object panelContext)
+	{
+		this.InventoryManager.Subscribe(InventoryUpdateSource.MercantilePurchase, new Action<ClientInventoryUpdateReportItem>(this.OnMercantilePurchase), null, false);
+		
+}
+```
+
+# 2023-09-10  FrontDoorconnectionAws (fdc)
+
+this is where the server interaction happens. There is websockets at play so messages go in both directions. Incoming messages in the form of actions.
+
+Anywhooo,
+
+I was looking at the code to see what data is sent along `JoinEvent` messages. I see that I can trick the server into sending the correct ammount of money. This I will test to see if I can join events for free. I will also try send negative ammounts of money to see if the server gets fooled and subtracts negative ammount from my account, e.g giving me money > D muhohahaha.
+
+I also saw that I can hack this function `CrackBoosterFromSetCode`. one of my goals was to crack all boosters at once as it is so tedious to click through all boosters. But lets start with trying to join events for free. To start with I will just create a static money `1500` gems and try to join the queue. I expect this to fail as there is likely some serverside verification that I have the money in my account.
+
+
+
+
+# 2023-09-19 joining events for free
+
+This didnt work due to server side validations : ( , what I want to do next is to fuzz the various parameters and also try nosql injection as I saw that
+the server was using mongo in some of the documentation.
+
+
+# 2023-09-19 Determining the endpoints to fuzz
+
+What I want do know is
+- [ ] Log all the communication going out from the client to the server by hooking the tcp connection functions used by the program
+- [ ] Attach a debugger
+- The names of the server endpoints
+
+Maybe forgetting about tls cracking is a good idea as I
+
+# 2023-06-10 fuzzing the api
+
+Hello again dark diary,
+
+i've decided that hacking the client seems cumbersome for a couple of reasons:
+
+- I think i need to keep track of the state that the client is in to test functionality
+- AFAIK, attaching a debugger requires me to compile mono from source, which I have tried and failed with.
+
+Armed with the above knowledge, I've decided to take a new route. Today I found the classes `WizardsAccountInformation` and `WASHTTPClient`, looking att the `WASHTTPClient` we see that we have the following REST api to interact with,
+
+```
+https://api.platform.wizards.com/
+```
+
+and the following endpoints:
+
+- GetPurchaseToken, `xsollaconnector/client/token`
+- GetProfileToken, `xsollaconnector/client/profile`
+- GetAllEntitlementsByReceiptIdAndSource, `entitlements/source/" + source + "/receipt/" + receiptId`
+
+and much more. All we need from the game is to get the following pieces of information 
+
+- `WASHTTPClient.ClientID`
+- `WASHTTPClient.ClientSecret`
+
+So we need to log them from the game client! hehe : ) shouldnt be too hard.
+
+## Loggin the HTTPClient id and secret from the game client
+
+
