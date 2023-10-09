@@ -4,8 +4,10 @@
 - [x] perform auth request towards the api, foothold!
 - [x] fuzz the api for documentation
 - [x] study the race condition lab from PortSwigger
-- [ ] find suitable endpoint to exploit
-- [ ] Write exploit
+- [ ] Hook the `WebPromise.cs` constructor to use local burp proxy and ignore ssl validation
+- [ ] study the purchase flow
+- [ ] Find the endpoint with parameters that is ripe for exploitation
+- [ ] Write exploit, conceptually
 - [ ] Test Exploit
 
 
@@ -106,3 +108,27 @@ This is from the lab https://portswigger.net/web-security/race-conditions/lab-ra
     Refresh the cart and check the order total:
         If the order total is still higher than your remaining store credit, remove the discount codes and repeat the attack.
         If the order total is less than your remaining store credit, purchase the jacket to solve the lab.
+
+# Hooking the Constructor of `WebPromise.cs`
+
+After reading a lot of code I found that the class that is doing many of the requests from the client is called `WebPromise.cs`.
+
+Here is the code I think I need to hook
+
+```csharp
+namespace Wizards.Arena.Promises
+{
+	// Token: 0x02000014 RID: 20
+	public class WebPromise : Promise<string>
+	{
+		// Token: 0x0400002F RID: 47
+		private static readonly HttpClient client = new HttpClient
+		{
+			Timeout = TimeSpan.FromMilliseconds(5000.0)
+		};
+		...
+	}
+}
+```
+
+need to become 
