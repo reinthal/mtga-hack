@@ -1,5 +1,11 @@
 # Hax
 
+This was a personal summerproject in 2023 where I tried to Hack Magic The Gathering Arena becuase I was bored with the game and it was a bit expensive. MTGA is written in C# and not cross compiled to c++. There are I found out that there is a large modding community for C# created games, plenty of tools for injecting code into the running application, and modding/patching existing game functionality.
+
+-- Alex 2024
+
+Here is my hacking diary from the project uncensored:
+
 # credentials lololol
 
 mtga
