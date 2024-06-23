@@ -4,6 +4,14 @@ This was a personal summerproject in 2023 where I tried to Hack Magic The Gather
 
 -- Alex 2024
 
+Some "captured flags" from the game:
+
+- [x] Extract the oath client secret and id from the application
+- [x] Enable Wizards Of the Coast flare (on client side only)
+- [x] Enable debugging menu
+- [x] Make the game run faster & run debuggin scenarios
+- [x] Find Wizard Of the Coasts Jira URI 
+
 Here is my hacking diary from the project uncensored:
 
 # credentials lololol
